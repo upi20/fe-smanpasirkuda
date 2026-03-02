@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Dancing+Script:wght@400&display=swap");
+@import "tailwindcss";
+
+/*
+ * Design System Tokens
+ * Source: docs/konsep/design_system.json
+ */
+
+@theme {
+  /* ── Brand Colors ── */
+  --color-brand-primary: #e61562;
+  --color-brand-primary-topbar: #e8065d;
+  --color-brand-primary-pagebg: #e81064;
+  --color-brand-secondary: #343689;
+  --color-brand-overlay-indigo: #161466;
+
+  /* ── Neutral ── */
+  --color-neutral-white: #ffffff;
+  --color-neutral-gray50: #f1f1f1;
+  --color-neutral-text: #0a0a0a;
+  --color-neutral-border: #e5e5e5;
+
+  /* ── Semantic ── */
+  --color-surface: #ffffff;
+  --color-surface-alt: #f1f1f1;
+  --color-text-primary: #0a0a0a;
+  --color-text-on-primary: #ffffff;
+  --color-text-on-secondary: #ffffff;
+  --color-link: #e61562;
+  --color-header-top-bg: #e8065d;
+  --color-header-bottom-bg: #f1f1f1;
+  --color-footer-secondary-bg: #343689;
+  --color-page-bg: #e81064;
+
+  /* ── Typography ── */
+  --font-base: "Lato", sans-serif;
+  --font-heading: "Lato", sans-serif;
+  --font-accent: "Dancing Script", sans-serif;
+
+  /* ── Spacing ── */
+  --spacing-section: 60px;
+
+  /* ── Border Radius ── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-dropdown: 0 10px 24px rgba(0, 0, 0, 0.12);
+  --shadow-card: 0 8px 18px rgba(0, 0, 0, 0.10);
+
+  /* ── Breakpoints ── */
+  --breakpoint-sm: 550px;
+  --breakpoint-md: 850px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  /* ── Motion ── */
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* ── Base Layer ── */
+@layer base {
+  html {
+    font-family: var(--font-base);
+    color: var(--color-text-primary);
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Accessible focus ring */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-primary);
+    outline-offset: 2px;
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Lazy-loaded images: prevent CLS */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* ── Glass utility ── */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+}
