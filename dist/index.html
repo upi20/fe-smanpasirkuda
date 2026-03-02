@@ -6,6 +6,22 @@
     <title>SMAN 1 Pasirkuda — Berkarakter, Berwawasan, Beriman</title>
     <meta name="description" content="SMA Negeri 1 Pasirkuda, Kab. Cianjur — Berkarakter, Berwawasan, Beriman" />
     <link rel="icon" type="image/png" href="/fe-smanpasirkuda/assets/logo-eicb50Nh.png" />
+    <script>
+      // Restore the path encoded by 404.html for SPA routing on GitHub Pages.
+      (function (l) {
+        if (l.search[1] === '/') {
+          var parts = l.search.slice(1).split('&').map(function (s) {
+            return s.replace(/~and~/g, '&');
+          });
+          window.history.replaceState(
+            null, null,
+            l.pathname.slice(0, -1) + parts[0] +
+            (parts[1] ? '?' + parts[1] : '') +
+            l.hash
+          );
+        }
+      }(window.location));
+    </script>
     <script type="module" crossorigin src="/fe-smanpasirkuda/assets/index-Cp5ZmrBS.js"></script>
     <link rel="stylesheet" crossorigin href="/fe-smanpasirkuda/assets/index-DCKEqUWw.css">
   </head>
