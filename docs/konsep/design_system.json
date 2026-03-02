@@ -330,13 +330,17 @@
       "Prioritaskan mobile-first: desain default untuk layar kecil, baru tambah variasi di breakpoint lebih besar.",
       "Utamakan target sentuh: elemen interaktif di mobile harus nyaman disentuh (hindari link/tombol terlalu rapat).",
       "Gunakan animasi untuk membantu pemahaman (feedback klik/hover, reveal konten), bukan sekadar dekorasi.",
-      "Wajib dukung prefers-reduced-motion (animasi diperkecil/di-nonaktifkan bila user meminta)."
+      "Wajib dukung prefers-reduced-motion (animasi diperkecil/di-nonaktifkan bila user meminta).",
+      "Lazy-load gambar/iframe di bawah fold dan selalu cegah layout shift (sediakan ukuran/ratio gambar).",
+      "Pastikan semua komponen interaktif bisa diakses keyboard dan fokus terlihat jelas (aksesibilitas)."
     ],
     "dont": [
       "Jangan menyalin elemen/link tersembunyi dari snapshot referensi (spam/SEO hack).",
       "Jangan hardcode warna di komponen; selalu refer ke tokens.*.color.",
       "Jangan membuat varian warna baru tanpa update design_system.json.",
-      "Jangan desain desktop-first lalu dipaksa mengecil; itu biasanya bikin pengalaman mobile buruk."
+      "Jangan desain desktop-first lalu dipaksa mengecil; itu biasanya bikin pengalaman mobile buruk.",
+      "Jangan pakai komponen interaktif tanpa label yang bisa dibaca screen reader (mis. icon-only tanpa aria-label).",
+      "Jangan memasukkan gambar besar tanpa kompresi; itu menghancurkan performa mobile."
     ]
   }
 }

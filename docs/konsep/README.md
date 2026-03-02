@@ -25,6 +25,8 @@ Folder ini adalah **patokan desain** untuk website SMAN 1 Pasir Kuda, dengan acu
 - [palette.md](palette.md) — ringkasan palette & pemakaian.
 - [typography.md](typography.md) — aturan font & heading.
 - [motion.md](motion.md) — aturan animasi/motion untuk landing page (micro-interactions + reveal + reduced motion).
+- [performance.md](performance.md) — aturan performa (lazy-load gambar/iframe, cegah CLS, minim bundle berat).
+- [accessibility.md](accessibility.md) — standar aksesibilitas (keyboard, focus, alt, reduced motion).
 
 ## Catatan penting
 Snapshot referensi memuat beberapa link tersembunyi/spam di bagian footer. Itu bukan bagian desain; abaikan total saat implementasi.

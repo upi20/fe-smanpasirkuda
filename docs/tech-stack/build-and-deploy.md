@@ -31,5 +31,10 @@ Buat file `public/_redirects`:
 - `index.html`: cache pendek (karena entrypoint)
 - `assets/*`: cache panjang + immutable (Vite biasanya fingerprinted)
 
+## Performance notes
+- Pastikan gambar besar (hero/banner) sudah terkompresi sebelum deploy.
+- Untuk gambar di bawah fold: gunakan lazy-load.
+- Cegah CLS: pastikan image punya ukuran/ratio.
+
 ## Tidak ada server runtime
 Semua fitur harus jalan tanpa proses server (kecuali konsumsi API eksternal jika nanti ditambahkan).

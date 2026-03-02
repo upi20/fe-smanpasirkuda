@@ -18,6 +18,8 @@ Target: website baru dibuat sebagai **SPA statis** (hasil build hanya berupa fil
 - Semua styling mengacu ke design system: `docs/konsep/design_system.json` + dokumen pendamping.
 - Tidak ada SSR / server runtime. Semua harus bisa jalan sebagai file statis.
 - Routing adalah client-side (SPA). Hosting wajib support fallback ke `index.html`.
+- Mobile-first performance: lazy-load aset di bawah fold dan kompres gambar.
+- Accessibility: keyboard navigation, focus visible, alt text, reduced motion.
 
 ## Paket inti (recommended baseline)
 - `vue` (Vue 3)

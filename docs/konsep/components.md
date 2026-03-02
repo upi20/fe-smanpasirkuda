@@ -111,3 +111,16 @@ Pola yang dipakai:
 Aturan:
 - Wajib mendukung `prefers-reduced-motion` (matikan reveal/stagger, sisakan perubahan state minimal).
 - Hindari autoplay/animasi besar yang mengganggu baca konten.
+
+## 12) Performance & A11y (wajib di semua komponen)
+### Gambar
+- Gambar di bawah fold: `loading="lazy"`.
+- Selalu sediakan ukuran/ratio untuk mencegah layout shift (CLS).
+- `alt` wajib untuk gambar bermakna; dekoratif pakai `alt=""`.
+
+### Kontrol icon-only
+- Icon-only button/link wajib punya label yang bisa dibaca screen reader (mis. `aria-label`).
+
+### Slider/Carousel
+- Tidak autoplay default.
+- Kontrol dots/arrows wajib bisa diakses keyboard dan memiliki label.
