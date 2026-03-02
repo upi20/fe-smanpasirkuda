@@ -1,19 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
 import { RouterLink } from 'vue-router'
-
-const showBackTop = ref(false)
-
-function onScroll() {
-  showBackTop.value = window.scrollY > 400
-}
-
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
-}
-
-onMounted(() => window.addEventListener('scroll', onScroll, { passive: true }))
-onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
 /* Footer sitemap links */
 const sitemapGroups = [
@@ -145,7 +131,7 @@ const socialLinks = [
   </footer>
 
   <!-- ════ Back to Top ════ -->
-  <Transition name="fade-up">
+  <!-- <Transition name="fade-up">
     <button
       v-show="showBackTop"
       class="fixed bottom-6 right-6 z-300 flex h-11 w-11 items-center justify-center rounded-full border-2 border-brand-primary bg-white text-brand-primary shadow-lg transition-colors duration-[var(--duration-fast)] hover:bg-brand-primary hover:text-white"
@@ -156,7 +142,7 @@ const socialLinks = [
         <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
       </svg>
     </button>
-  </Transition>
+  </Transition> -->
 </template>
 
 <style scoped>

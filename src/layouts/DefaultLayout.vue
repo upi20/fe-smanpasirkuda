@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AppHeader from '@/components/sections/AppHeader.vue'
 import AppFooter from '@/components/sections/AppFooter.vue'
+import FloatingButtons from '@/components/FloatingButtons.vue'
 </script>
 
 <template>
@@ -10,5 +11,6 @@ import AppFooter from '@/components/sections/AppFooter.vue'
       <RouterView />
     </main>
     <AppFooter />
+    <FloatingButtons />
   </div>
 </template>

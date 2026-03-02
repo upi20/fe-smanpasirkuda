@@ -53,7 +53,7 @@ const articles: Berita[] = [
   <section class="bg-surface-alt py-14 sm:py-16">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <!-- Header -->
-      <div class="mb-12 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end lg:mb-16">
+      <div v-reveal="{ delay: 0 }" class="mb-12 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end lg:mb-16">
         <div>
           <h3 class="mb-3 text-sm font-extrabold uppercase tracking-[0.2em] text-brand-primary">
             INFORMASI TERKINI
@@ -78,6 +78,7 @@ const articles: Berita[] = [
         <RouterLink
           v-for="(article, i) in articles"
           :key="i"
+          v-reveal="{ delay: i * 120 }"
           :to="article.slug"
           class="group flex flex-col overflow-hidden rounded-2xl border border-neutral-border bg-surface shadow-sm transition-all duration-300 hover:shadow-xl"
         >

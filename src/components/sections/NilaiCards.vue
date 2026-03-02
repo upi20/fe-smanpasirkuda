@@ -36,6 +36,7 @@ const items: NilaiItem[] = [
         <div
           v-for="(item, i) in items"
           :key="i"
+          v-reveal="{ delay: i * 120 }"
           class="group rounded-2xl border border-neutral-border bg-surface p-8 shadow-sm transition-all duration-300 hover:border-brand-secondary hover:shadow-card lg:p-10"
         >
           <!-- Icon -->

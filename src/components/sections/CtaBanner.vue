@@ -10,7 +10,7 @@ import { RouterLink } from 'vue-router'
     <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col items-center justify-between gap-10 md:flex-row md:gap-12">
         <!-- Text -->
-        <div class="text-white">
+        <div v-reveal.left="{ delay: 0 }" class="text-white">
           <h2 class="mb-4 text-3xl font-extrabold sm:text-4xl">
             Ayo Jadi Bagian dari <span class="text-brand-primary">Masa Depan</span>
           </h2>
@@ -20,7 +20,7 @@ import { RouterLink } from 'vue-router'
         </div>
 
         <!-- Buttons -->
-        <div class="flex flex-wrap gap-4">
+        <div v-reveal.right="{ delay: 200 }" class="flex flex-wrap gap-4">
           <RouterLink
             to="/informasi/ppdb"
             class="rounded-pill bg-white px-8 py-3.5 text-center text-sm font-bold text-brand-secondary shadow-xl transition-all hover:bg-neutral-gray50 active:scale-95 sm:px-10 sm:py-4"

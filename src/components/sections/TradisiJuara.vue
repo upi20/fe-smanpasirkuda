@@ -32,7 +32,7 @@ const stats: Stat[] = [
   <section class="py-16 sm:py-20 lg:py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <!-- Header -->
-      <div class="mx-auto mb-12 max-w-3xl text-center lg:mb-16">
+      <div v-reveal.fade="{ delay: 0 }" class="mx-auto mb-12 max-w-3xl text-center lg:mb-16">
         <h3 class="mb-4 text-sm font-extrabold uppercase tracking-[0.2em] text-brand-secondary">
           TRADISI JUARA
         </h3>
@@ -47,6 +47,7 @@ const stats: Stat[] = [
         <div
           v-for="(stat, i) in stats"
           :key="i"
+          v-reveal.scale="{ delay: i * 150 }"
           class="flex flex-col items-center rounded-3xl border border-neutral-border bg-surface p-10 text-center shadow-sm transition-all duration-300 hover:shadow-card lg:p-12"
         >
           <!-- Icon circle -->

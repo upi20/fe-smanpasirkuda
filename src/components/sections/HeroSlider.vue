@@ -105,7 +105,7 @@ const current = ref(0)
 const isTransitioning = ref(false)
 const isPaused = ref(false)
 
-const INTERVAL = 6000
+const INTERVAL = 3000
 const TRANSITION_MS = 700
 
 let timer: ReturnType<typeof setInterval> | null = null

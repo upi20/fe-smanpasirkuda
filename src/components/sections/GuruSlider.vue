@@ -115,7 +115,7 @@ function getColor(index: number) {
   <section class="bg-surface py-16 sm:py-20 lg:py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <!-- Header -->
-      <div class="mb-12 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end lg:mb-16">
+      <div v-reveal="{ delay: 0 }" class="mb-12 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end lg:mb-16">
         <div>
           <h3 class="mb-3 flex items-center gap-3 text-sm font-extrabold uppercase tracking-[0.15em] text-brand-secondary">
             <span class="block h-1 w-12 bg-brand-primary" />
@@ -138,6 +138,7 @@ function getColor(index: number) {
 
       <!-- Slider -->
       <div
+        v-reveal="{ delay: 200 }"
         class="relative"
         @mouseenter="isPaused = true"
         @mouseleave="isPaused = false"
