@@ -1,0 +1,233 @@
+HTTrack3.49-2 launched on Mon, 02 Mar 2026 17:24:22 at https://sman1bdg.sch.id/
+(httrack https://sman1bdg.sch.id/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:24:22	Warning: 	Cache: damaged cache, trying to repair
+17:24:22	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+17:24:22	Warning: 	Cache: error trying to open the cache
+17:29:23	Error: 	"Method Not Allowed" (405) at link https://sman1bdg.sch.id/xmlrpc.php (from https://sman1bdg.sch.id/)
+17:29:30	Warning: 	Retry after error -4 (No data (connection closed)) at link https://sman1bdg.sch.id/wp-content/uploads/2023/04/cropped-favicon-1-32x32.png (from https://sman1bdg.sch.id/)
+17:29:30	Warning: 	Retry after error -4 (No data (connection closed)) at link https://sman1bdg.sch.id/wp-content/uploads/2023/04/cropped-favicon-1-192x192.png (from https://sman1bdg.sch.id/)
+17:29:30	Warning: 	Retry after error -2 (Receive Time Out) at link sman1bdg.sch.id/wp-content/plugins/gtranslate/flags/svg/su.svg (from https://sman1bdg.sch.id/)
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4623
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4623 to https://sman1bdg.sch.id/si-ambis-2/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=1880
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=1880 to https://sman1bdg.sch.id/direktori-guru/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=1858
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=1858 to https://sman1bdg.sch.id/direktori-siswa/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=398
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=398 to https://sman1bdg.sch.id/direktori-alumni/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=100
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=100 to https://sman1bdg.sch.id/profil/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6063
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6063 to https://sman1bdg.sch.id/sejarah-singkat/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6073
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6073 to https://sman1bdg.sch.id/visi-misi/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=378
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=378 to https://sman1bdg.sch.id/hymne/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6088
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6088 to https://sman1bdg.sch.id/arti-logo/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2994
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2994 to https://sman1bdg.sch.id/program-unggulan/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6102
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6102 to https://sman1bdg.sch.id/keadaan-guru-tendik-dan-siswa/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=88
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=88 to https://sman1bdg.sch.id/guru-staff/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=282
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=282 to https://sman1bdg.sch.id/akreditasi/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6447
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6447 to https://sman1bdg.sch.id/sertifikat-npsn/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=361
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=361 to https://sman1bdg.sch.id/komite-sekolah/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=5952
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=5952 to https://sman1bdg.sch.id/akademik/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4817
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4817 to https://sman1bdg.sch.id/kurikulum/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2170
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2170 to https://sman1bdg.sch.id/sks/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=5957
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=5957 to https://sman1bdg.sch.id/kesiswaan/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6166
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6166 to https://sman1bdg.sch.id/event/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/event/"data:image/gif;base64,R0lGODlhEAAQAOZ3APf39+Xl5fT09OPj4/Hx8evr6/3+/u7u7uDh4OPi497e3t7e3/z8/P79/X3GbuXl5ubl5eHg4WzFUfb39+Pj4lzGOV7LOPz7+/n6+vn5+ZTLj9/e387Ozt7f3/7+/vv7/ISbePn5+m/JV1nRKXmVbkCnKVrSLDqsCuDh4d/e3uDn3/z7/H6TdVeaV1uSW+bn5v39/eXm5eXm5kyHP/f39pzGmVy7J3yRd9/f3mLEKkXCHJbka2TVM5vaZn6Wdfn6+YG/c/r5+ZO/jeLi41aHTIeageLn4f39/vr6+kzNG2PVM5i+lomdf2CXYKHVmtzo2YXNeDqsBebl5uHh4HDKWN3g3kKqEH6WeZHTXIPKdnSPbv79/pfmbE7PHpe1l4O8dTO5DODg4VDLIlKUUtzo2J7SmEWsLlG4NJbFjkrJHP7+/VK5Nfz8+zmnC3KKa+Hg4OHh4Y63j/3+/eDg4Ojo6P///8DAwP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHcALAAAAAAQABAAAAfWgHd2g4SFhYJzdYqLjIpzgx5bBgYwHg1Hk2oNDXKDFwwfDF5NLmMtcStsn4MhGT8YS04aGmU1QRhIGYMTADQAQlAODlloAMYTgwICRmRfVBISIkBPKsqDBAREZmcVFhYVayUz2IMHB1dWOmImI2lgUVrmgwUFLzdtXTxKSSduMfSD6Aik48MGlx05SAykM0gKhAAPAhTB0oNFABkPHg5KMIBCxzlMQFQZMGBIggSDpsCJgGDOmzkIUCAIM2dOhEEcNijQuQDHgg4KOqRYwMGOIENIB90JBAA7"
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/event/"data:image/gif;base64,R0lGODlhEAAQAOZ3APf39+Xl5fT09OPj4/Hx8evr6/3+/u7u7uDh4OPi497e3t7e3/z8/P79/X3GbuXl5ubl5eHg4WzFUfb39+Pj4lzGOV7LOPz7+/n6+vn5+ZTLj9/e387Ozt7f3/7+/vv7/ISbePn5+m/JV1nRKXmVbkCnKVrSLDqsCuDh4d/e3uDn3/z7/H6TdVeaV1uSW+bn5v39/eXm5eXm5kyHP/f39pzGmVy7J3yRd9/f3mLEKkXCHJbka2TVM5vaZn6Wdfn6+YG/c/r5+ZO/jeLi41aHTIeageLn4f39/vr6+kzNG2PVM5i+lomdf2CXYKHVmtzo2YXNeDqsBebl5uHh4HDKWN3g3kKqEH6WeZHTXIPKdnSPbv79/pfmbE7PHpe1l4O8dTO5DODg4VDLIlKUUtzo2J7SmEWsLlG4NJbFjkrJHP7+/VK5Nfz8+zmnC3KKa+Hg4OHh4Y63j/3+/eDg4Ojo6P///8DAwP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHcALAAAAAAQABAAAAfWgHd2g4SFhYJzdYqLjIpzgx5bBgYwHg1Hk2oNDXKDFwwfDF5NLmMtcStsn4MhGT8YS04aGmU1QRhIGYMTADQAQlAODlloAMYTgwICRmRfVBISIkBPKsqDBAREZmcVFhYVayUz2IMHB1dWOmImI2lgUVrmgwUFLzdtXTxKSSduMfSD6Aik48MGlx05SAykM0gKhAAPAhTB0oNFABkPHg5KMIBCxzlMQFQZMGBIggSDpsCJgGDOmzkIUCAIM2dOhEEcNijQuQDHgg4KOqRYwMGOIENIB90JBAA7" to https://sman1bdg.sch.id/event/%22data:image/gif;base64,R0lGODlhEAAQAOZ3APf39+Xl5fT09OPj4/Hx8evr6/3+/u7u7uDh4OPi497e3t7e3/z8/P79/X3GbuXl5ubl5eHg4WzFUfb39+Pj4lzGOV7LOPz7+/n6+vn5+ZTLj9/e387Ozt7f3/7+/vv7/ISbePn5+m/JV1nRKXmVbkCnKVrSLDqsCuDh4d/e3uDn3/z7/H6TdVeaV1uSW+bn5v39/eXm5eXm5kyHP/f39pzGmVy7J3yRd9/f3mLEKkXCHJbka2TVM5vaZn6Wdfn6+YG/c/r5+ZO/jeLi41aHTIeageLn4f39/vr6+kzNG2PVM5i+lomdf2CXYKHVmtzo2YXNeDqsBebl5uHh4HDKWN3g3kKqEH6WeZHTXIPKdnSPbv79/pfmbE7PHpe1l4O8dTO5DODg4VDLIlKUUtzo2J7SmEWsLlG4NJbFjkrJHP7+/VK5Nfz8+zmnC3KKa+Hg4OHh4Y63j/3+/eDg4Ojo6P/8DAwP/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHcALAAAAAAQABAAAAfWgHd2g4SFhYJzdYqLjIpzgx5bBgYwHg1Hk2oNDXKDFwwfDF5NLmMtcStsn4MhGT8YS04aGmU1QRhIGYMTADQAQlAODlloAMYTgwICRmRfVBISIkBPKsqDBAREZmcVFhYVayUz2IMHB1dWOmImI2lgUVrmgwUFLzdtXTxKSSduMfSD6Aik48MGlx05SAykM0gKhAAPAhTB0oNFABkPHg5KMIBCxzlMQFQZMGBIggSDpsCJgGDOmzkIUCAIM2dOhEEcNijQuQDHgg4KOqRYwMGOIENIB90JBAA7
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=344
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=344 to https://sman1bdg.sch.id/tata-tertib/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3414
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3414 to https://sman1bdg.sch.id/psas-standar-smansa/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=5964
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=5964 to https://sman1bdg.sch.id/fasilitas/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=357
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=357 to https://sman1bdg.sch.id/sarana-prasarana/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2777
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2777 to https://sman1bdg.sch.id/denah-smansa/
+17:37:21	Error: 	"Not Found" (404) at link https://sman1bdg.sch.id/images/galeri/denah.jpg (from https://sman1bdg.sch.id/denah-smansa/)
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4055
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4055 to https://sman1bdg.sch.id/struktur-organisasi-tu/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=386
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=386 to https://sman1bdg.sch.id/alumni/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6647
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6647 to https://sman1bdg.sch.id/ranking-utbk-sekolah/
+17:37:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=5029
+17:37:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=5029 to https://sman1bdg.sch.id/diterima-ptn/
+17:38:26	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2357
+17:38:26	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2357 to https://sman1bdg.sch.id/2019/07/11/hasil-pendataan-diterima-perguruan-tinggi-tahun-2020/
+17:40:17	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=753
+17:40:17	Warning: 	File has moved from https://sman1bdg.sch.id/?p=753 to https://sman1bdg.sch.id/jurnal/
+17:40:19	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4788
+17:40:19	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4788 to https://sman1bdg.sch.id/jurnal-2/
+17:40:20	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=5017
+17:40:20	Warning: 	File has moved from https://sman1bdg.sch.id/?p=5017 to https://sman1bdg.sch.id/prestasi/
+17:43:48	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=219
+17:43:48	Warning: 	File has moved from https://sman1bdg.sch.id/?p=219 to https://sman1bdg.sch.id/video-profil/
+17:43:49	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4576
+17:43:49	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4576 to https://sman1bdg.sch.id/smansa-sebagai-pelopor/
+17:43:52	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6887
+17:43:52	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6887 to https://sman1bdg.sch.id/2025/03/20/smansa-peringkat-pertama-jumlah-presentase-diterima-ptn-sman-di-kota-bandung/
+17:43:52	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6864
+17:43:52	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6864 to https://sman1bdg.sch.id/2025/03/19/62-siswa-diterima-ptn-jalur-snbp-2025/
+17:43:52	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6880
+17:43:52	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6880 to https://sman1bdg.sch.id/2025/03/17/kang-dedy-mulyadi-sambangi-sman-1-bandung/
+17:43:52	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6868
+17:43:52	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6868 to https://sman1bdg.sch.id/2025/03/12/kunjungi-sman-1-bandung-wamendikdasmen-semoga-putusan-sesuai-fakta/
+17:43:52	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6895
+17:43:52	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6895 to https://sman1bdg.sch.id/2024/05/22/53-siswa-diterima-ptn-jalur-snbt-2024/
+17:43:52	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6783
+17:43:52	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6783 to https://sman1bdg.sch.id/2024/03/30/57-siswa-diterima-ptn-jalur-snbp-2024/
+17:43:52	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6211
+17:43:52	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6211 to https://sman1bdg.sch.id/karya-smansa/
+17:43:52	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6217
+17:43:52	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6217 to https://sman1bdg.sch.id/2023/03/04/karya-guru-saparan-panyinglar-nu-lahir-di-bulan-sapar/
+17:43:59	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6205
+17:43:59	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6205 to https://sman1bdg.sch.id/2023/03/04/karya-guru-best-practice-penggunaan-aplikasi-moodle-dalam-pembelajaran-bahasa-indonesia/
+17:44:00	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6202
+17:44:00	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6202 to https://sman1bdg.sch.id/2023/03/04/karya-guru-wacana-iklan-dalam-media-massa-sunda-analisis-sintaksis-dan-pragmatik/
+17:44:01	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6197
+17:44:01	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6197 to https://sman1bdg.sch.id/2023/03/04/tradisi-dan-tragedi-dalam-cerpen-nu-ceurik-dina-lahunan-karya-darpan/
+17:44:04	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4150
+17:44:04	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4150 to https://sman1bdg.sch.id/2021/12/17/karya-guru-panduan-ibadah-solat-wudhu-tayamum-di-alam-bebas/
+17:44:34	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4136
+17:44:34	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4136 to https://sman1bdg.sch.id/2021/12/14/penanaman-aqidah-melalui-program-ajengan-masuk-sekolah-di-sma-negeri-1-bandung/
+17:44:38	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3837
+17:44:38	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3837 to https://sman1bdg.sch.id/2020/02/06/pengaruh-konflik-dan-stres-kerja-terhadap-kinerja-karyawan-studi-pada-kantor-kementrian-agama-ciamis-rijki-raamdani-guru-pai-sman-1-bandung/
+17:44:38	Error: 	"Not Found" (404) at link https://sman1bdg.sch.id/scholar?oi=bibs&cluster=17815135054604023014&btnI=1&hl=id (from https://sman1bdg.sch.id/2020/02/06/pengaruh-konflik-dan-stres-kerja-terhadap-kinerja-karyawan-studi-pada-kantor-kementrian-agama-ciamis-rijki-raamdani-guru-pai-sman-1-bandung/)
+17:44:57	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2894
+17:44:57	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2894 to https://sman1bdg.sch.id/2019/12/16/pengaruh-mutazilah-pada-filsafat-teologi/
+17:45:11	Error: 	"Not Found" (404) at link https://sman1bdg.sch.id/event/%22data:image/gif;base64,R0lGODlhEAAQAOZ3APf39+Xl5fT09OPj4/Hx8evr6/3+/u7u7uDh4OPi497e3t7e3/z8/P79/X3GbuXl5ubl5eHg4WzFUfb39+Pj4lzGOV7LOPz7+/n6+vn5+ZTLj9/e387Ozt7f3/7+/vv7/ISbePn5+m/JV1nRKXmVbkCnKVrSLDqsCuDh4d/e3uDn3/z7/H6TdVeaV1uSW+bn5v39/eXm5eXm5kyHP/f39pzGmVy7J3yRd9/f3mLEKkXCHJbka2TVM5vaZn6Wdfn6+YG/c/r5+ZO/jeLi41aHTIeageLn4f39/vr6+kzNG2PVM5i+lomdf2CXYKHVmtzo2YXNeDqsBebl5uHh4HDKWN3g3kKqEH6WeZHTXIPKdnSPbv79/pfmbE7PHpe1l4O8dTO5DODg4VDLIlKUUtzo2J7SmEWsLlG4NJbFjkrJHP7+/VK5Nfz8+zmnC3KKa+Hg4OHh4Y63j/3+/eDg4Ojo6P/8DAwP/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHcALAAAAAAQABAAAAfWgHd2g4SFhYJzdYqLjIpzgx5bBgYwHg1Hk2oNDXKDFwwfDF5NLmMtcStsn4MhGT8YS04aGmU1QRhIGYMTADQAQlAODlloAMYTgwICRmRfVBISIkBPKsqDBAREZmcVFhYVayUz2IMHB1dWOmImI2lgUVrmgwUFLzdtXTxKSSduMfSD6Aik48MGlx05SAykM0gKhAAPAhTB0oNFABkPHg5KMIBCxzlMQFQZMGBIggSDpsCJgGDOmzkIUCAIM2dOhEEcNijQuQDHgg4KOqRYwMGOIENIB90JBAA7 (from https://sman1bdg.sch.id/event/"data:image/gif;base64,R0lGODlhEAAQAOZ3APf39+Xl5fT09OPj4/Hx8evr6/3+/u7u7uDh4OPi497e3t7e3/z8/P79/X3GbuXl5ubl5eHg4WzFUfb39+Pj4lzGOV7LOPz7+/n6+vn5+ZTLj9/e387Ozt7f3/7+/vv7/ISbePn5+m/JV1nRKXmVbkCnKVrSLDqsCuDh4d/e3uDn3/z7/H6TdVeaV1uSW+bn5v39/eXm5eXm5kyHP/f39pzGmVy7J3yRd9/f3mLEKkXCHJbka2TVM5vaZn6Wdfn6+YG/c/r5+ZO/jeLi41aHTIeageLn4f39/vr6+kzNG2PVM5i+lomdf2CXYKHVmtzo2YXNeDqsBebl5uHh4HDKWN3g3kKqEH6WeZHTXIPKdnSPbv79/pfmbE7PHpe1l4O8dTO5DODg4VDLIlKUUtzo2J7SmEWsLlG4NJbFjkrJHP7+/VK5Nfz8+zmnC3KKa+Hg4OHh4Y63j/3+/eDg4Ojo6P///8DAwP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHcALAAAAAAQABAAAAfWgHd2g4SFhYJzdYqLjIpzgx5bBgYwHg1Hk2oNDXKDFwwfDF5NLmMtcStsn4MhGT8YS04aGmU1QRhIGYMTADQAQlAODlloAMYTgwICRmRfVBISIkBPKsqDBAREZmcVFhYVayUz2IMHB1dWOmImI2lgUVrmgwUFLzdtXTxKSSduMfSD6Aik48MGlx05SAykM0gKhAAPAhTB0oNFABkPHg5KMIBCxzlMQFQZMGBIggSDpsCJgGDOmzkIUCAIM2dOhEEcNijQuQDHgg4KOqRYwMGOIENIB90JBAA7")
+17:45:13	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6669
+17:45:13	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6669 to https://sman1bdg.sch.id/2023/06/21/63-siswa-diterima-jalur-snbt-2023/
+17:45:21	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6294
+17:45:21	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6294 to https://sman1bdg.sch.id/2023/03/29/siswa-smansa-diterima-ptn-jalur-snbp-2023/
+17:45:25	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4726
+17:45:25	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4726 to https://sman1bdg.sch.id/2022/06/24/50-siswa-diterima-ptn-jalur-sbmptn-2022/
+17:45:42	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4723
+17:45:42	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4723 to https://sman1bdg.sch.id/2022/04/01/40-siswa-diterima-ptn-jalur-snmptn-2022/
+17:45:51	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3907
+17:45:51	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3907 to https://sman1bdg.sch.id/2021/06/14/siswa-diterima-ptn-jalur-sbmptn-2021/
+17:46:11	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3754
+17:46:11	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3754 to https://sman1bdg.sch.id/2021/04/11/selamat-4-siswa-diterima-politeknik-negeri-jalur-snmpn-2021/
+17:46:35	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3730
+17:46:35	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3730 to https://sman1bdg.sch.id/2021/03/22/hasil-seleksi-snmptn-2021-sman-1-bandung/
+17:46:43	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6694
+17:46:43	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6694 to https://sman1bdg.sch.id/2020/06/23/83-siswa-diterima-jalur-sbmptn-2020/
+17:47:02	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3220
+17:47:02	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3220 to https://sman1bdg.sch.id/2020/04/08/hebat-siswa-smansa-diterima-di-perguruan-tinggi-jalur-snmptn-2020/
+17:47:06	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3168
+17:47:06	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3168 to https://sman1bdg.sch.id/2020/03/29/selamat-19-siswa-smansa-diterima-di-perguruan-tinggi-politeknik-jalur-snmpn-2020/
+17:47:12	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2289
+17:47:12	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2289 to https://sman1bdg.sch.id/2019/07/09/siswa-diterima-ptn-jalur-sbmptn-2019/
+17:47:16	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=1182
+17:47:16	Warning: 	File has moved from https://sman1bdg.sch.id/?p=1182 to https://sman1bdg.sch.id/2019/03/22/43-siswa-smansa-lulus-snmptn-2019/
+17:48:34	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2400
+17:48:34	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2400 to https://sman1bdg.sch.id/2019/07/18/kegiatan-bela-negara-dan-kepramukaan-pusdikjas/
+18:00:46	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6636
+18:00:46	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6636 to https://sman1bdg.sch.id/2023/06/05/rakha-juara-1-50-m-frestyle-fins-man-dan-juara-3-50-m-butterfly-fins-man-se-jawa-barat/
+18:00:56	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6613
+18:00:56	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6613 to https://sman1bdg.sch.id/2023/06/04/lulusan-terbaik-angkatan-2023/
+18:01:31	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6639
+18:01:31	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6639 to https://sman1bdg.sch.id/2023/06/03/lolos-seleksi-osn-kota-bandung-dan-osn-jawa-barat/
+18:01:59	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6290
+18:01:59	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6290 to https://sman1bdg.sch.id/2023/03/27/selamat-aaliyah-diterima-di-university-of-japan/
+18:01:59	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6259
+18:01:59	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6259 to https://sman1bdg.sch.id/2023/03/20/keren-bangg-crystalone-borong-piala-tingkat-nasional/
+18:02:08	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6230
+18:02:08	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6230 to https://sman1bdg.sch.id/2023/03/05/nurlisa-putri-azizah-meraih-30-summer-school-scolarship-awardee/
+18:02:28	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6132
+18:02:28	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6132 to https://sman1bdg.sch.id/2023/02/16/raihan-siswa-sman-1-bandung-meraih-medali-emas-dalam-ajang-olimpiade-sains-siswa-nasional/
+18:02:57	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6128
+18:02:57	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6128 to https://sman1bdg.sch.id/2023/02/14/smansa-juara-asean-geography-smart-competition-2023/
+18:03:12	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6041
+18:03:12	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6041 to https://sman1bdg.sch.id/2023/02/04/crystalone-sc-smansa-raih-3-best-kategori-pada-rscc-2023/
+18:03:25	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6022
+18:03:25	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6022 to https://sman1bdg.sch.id/2023/01/25/tim-toko-bangunan-sman-1-bandung-raih-favorit-team-pertama-atas-kejuaraan-lomba-karya-tulis-ilmiah-ftsl-itb/
+18:03:32	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6019
+18:03:32	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6019 to https://sman1bdg.sch.id/2023/01/15/rayhan-hadinata-juara-1-tanding-pencak-silat-putra-kelas-f/
+18:03:57	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6016
+18:03:57	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6016 to https://sman1bdg.sch.id/2023/01/05/amelya-maharani-meraih-medali-emas-kompetisi-siswa-indonesia-tingkat-nasional-bidang-bahasa-inggris/
+18:04:11	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6006
+18:04:11	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6006 to https://sman1bdg.sch.id/2022/12/25/ekskul-ascot-smansa-meraih-juara-3-kompetisi-futsal-antar-sma-se-kota-bandung/
+18:04:31	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6002
+18:04:31	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6002 to https://sman1bdg.sch.id/2022/12/25/anugrag-arya-muhajir-meraih-terbaik-3-osn-astronomi-tingkat-prov-jawa-barat/
+18:04:34	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=5996
+18:04:34	Warning: 	File has moved from https://sman1bdg.sch.id/?p=5996 to https://sman1bdg.sch.id/2022/12/14/ananta-juara-1-robotik-maze-solving-senior-di-itenas/
+18:04:38	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6718
+18:04:38	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6718 to https://sman1bdg.sch.id/2023/11/16/slbn-cicendo-turut-meriahkan-balinosa-smansa-2023/
+18:04:38	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6724
+18:04:38	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6724 to https://sman1bdg.sch.id/2023/11/14/balinosa-2023-hadirkan-tampilan-menarik/
+18:04:38	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6731
+18:04:38	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6731 to https://sman1bdg.sch.id/2023/11/01/fedabara-2023-gelar-penyisihan-basketball/
+18:04:38	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6736
+18:04:38	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6736 to https://sman1bdg.sch.id/2023/10/25/king-mongkuts-university-of-technology-thonbury-thailand-kunjungi-smansa/
+18:04:57	Warning: 	Moved Permanently for https://sman1bdg.sch.id/category/berita/page/1/
+18:04:57	Warning: 	File has moved from https://sman1bdg.sch.id/category/berita/page/1/ to https://sman1bdg.sch.id/category/berita/
+18:07:15	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=748
+18:07:15	Warning: 	File has moved from https://sman1bdg.sch.id/?p=748 to https://sman1bdg.sch.id/2019/03/03/konsep-sma-rujukan-sman-1-bandung-sebagai-sekolah-rujukan/
+18:07:19	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=746
+18:07:19	Warning: 	File has moved from https://sman1bdg.sch.id/?p=746 to https://sman1bdg.sch.id/2019/03/03/mengejar-angan-menembus-awan/
+18:07:19	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=744
+18:07:19	Warning: 	File has moved from https://sman1bdg.sch.id/?p=744 to https://sman1bdg.sch.id/2019/03/03/kimia-mipa-vs-teknik-kimia-yang-mana/
+18:07:19	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=742
+18:07:19	Warning: 	File has moved from https://sman1bdg.sch.id/?p=742 to https://sman1bdg.sch.id/2019/03/03/mengapa-gelembung-sabun-berbentuk-bulat/
+18:07:19	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=740
+18:07:19	Warning: 	File has moved from https://sman1bdg.sch.id/?p=740 to https://sman1bdg.sch.id/2019/03/03/tiba-saatnya-mengakhiri-pendidikan/
+18:08:59	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3835
+18:08:59	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3835 to https://sman1bdg.sch.id/2019/05/06/media-pembelajaran-e-learning-dalam-pembelajaran-pendidikan-agama-islam-di-sma-laboratorium-percontohan-upi-bandung-rijki-ramdani-guru-pai-sman-1-bandung/
+18:08:59	Error: 	"Not Found" (404) at link https://sman1bdg.sch.id/scholar?oi=bibs&cluster=11707807482652559556&btnI=1&hl=id (from https://sman1bdg.sch.id/2019/05/06/media-pembelajaran-e-learning-dalam-pembelajaran-pendidikan-agama-islam-di-sma-laboratorium-percontohan-upi-bandung-rijki-ramdani-guru-pai-sman-1-bandung/)
+18:09:45	Warning: 	Moved Permanently for https://sman1bdg.sch.id/category/karya-guru/page/1/
+18:09:45	Warning: 	File has moved from https://sman1bdg.sch.id/category/karya-guru/page/1/ to https://sman1bdg.sch.id/category/karya-guru/
+18:10:08	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6226
+18:10:08	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6226 to https://sman1bdg.sch.id/2023/03/05/jadwal-utbk-snbt-2023/
+18:10:08	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6189
+18:10:08	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6189 to https://sman1bdg.sch.id/2023/03/04/aulia-asyira-ikuti-member-jkt48/
+18:10:08	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4732
+18:10:08	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4732 to https://sman1bdg.sch.id/2021/12/20/osis-sukses-gelar-liga-smansa-fifa-e-sport-2022/
+18:11:31	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4132
+18:11:31	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4132 to https://sman1bdg.sch.id/2021/12/13/fariz-fauzan-x-ips-3-juara-1-kejuaraan-squash-s2-jabar-open-2021/
+18:11:31	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3006
+18:11:31	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3006 to https://sman1bdg.sch.id/2020/01/29/alumni-berperan-penting-dalam-pembangunan-sekolah/
+18:11:34	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3022
+18:11:34	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3022 to https://sman1bdg.sch.id/2020/02/09/wafie-dan-harun-tim-persib-u17-juara-1-kategori-silver-ajang-kompetisi-fjl-seri-elite-nasional-2020/
+18:12:16	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2854
+18:12:16	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2854 to https://sman1bdg.sch.id/2019/12/02/pas-berbasis-digital/
+18:12:16	Error: 	"Not Found" (404) at link https://sman1bdg.sch.id/wp-content/uploads/2019/11/pasdigitalsmansa.jpg (from https://sman1bdg.sch.id/2019/12/02/pas-berbasis-digital/)
+18:12:20	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=2899
+18:12:20	Warning: 	File has moved from https://sman1bdg.sch.id/?p=2899 to https://sman1bdg.sch.id/2019/12/20/pembagian-laporan-hasil-belajar-siswa/
+18:12:59	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6642
+18:12:59	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6642 to https://sman1bdg.sch.id/2023/06/11/jumlah-pendaftar-ppdb-tahap-1-smansa-capai-762-pendaftar/
+18:13:04	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=6405
+18:13:04	Warning: 	File has moved from https://sman1bdg.sch.id/?p=6405 to https://sman1bdg.sch.id/2023/04/06/smansa-luncurkan-website-program-sekolah-penggerak/
+18:13:04	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4729
+18:13:04	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4729 to https://sman1bdg.sch.id/2022/05/30/dua-pesilat-smansa-fryguswon-dan-rangga-rebut-gelar-juara-1/
+18:13:04	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4929
+18:13:04	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4929 to https://sman1bdg.sch.id/2022/08/17/hut-ri-ke-77-tidak-kalah-dengan-citayam-fashion-week-gtk-dan-siswa-sman-1-bandung-lenggak-lenggok-bak-model/
+18:13:43	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=4773
+18:13:43	Warning: 	File has moved from https://sman1bdg.sch.id/?p=4773 to https://sman1bdg.sch.id/2022/02/05/koperasi-bina-sejahtera-laksanakan-rat/
+18:13:56	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3896
+18:13:56	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3896 to https://sman1bdg.sch.id/2021/06/03/pelepasan-virtual-angkatan-2021/
+18:13:59	Warning: 	Moved Permanently for https://sman1bdg.sch.id/?p=3975
+18:13:59	Warning: 	File has moved from https://sman1bdg.sch.id/?p=3975 to https://sman1bdg.sch.id/2021/08/16/smansa-luncurkan-smansaku-sebagai-portal-student-center/
+18:14:13	Error: 	Exit requested by shell or user

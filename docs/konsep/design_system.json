@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "name": "SMAN 1 Pasir Kuda - Design System (Konsep)",
+    "version": "0.1.0",
+    "status": "concept",
+    "source": {
+      "referenceSite": "sman1bdg.sch.id",
+      "referenceSnapshot": "referensi/sman1bdg.sch.id/index.html",
+      "notes": [
+        "Token warna & beberapa ukuran diambil dari CSS inline <style id=custom-css> pada snapshot referensi.",
+        "Snapshot referensi mengandung link tersembunyi/spam di footer; itu bukan bagian dari desain dan harus diabaikan saat implementasi."
+      ]
+    }
+  },
+  "tokens": {
+    "color": {
+      "brand": {
+        "primary": "#e61562",
+        "primaryTopBar": "#e8065d",
+        "primaryPageBg": "#e81064",
+        "secondary": "#343689",
+        "overlayIndigo": "#161466"
+      },
+      "neutral": {
+        "white": "#ffffff",
+        "gray50": "#f1f1f1",
+        "text": "#0a0a0a",
+        "border": "#e5e5e5"
+      },
+      "semantic": {
+        "surface": "#ffffff",
+        "surfaceAlt": "#f1f1f1",
+        "textPrimary": "#0a0a0a",
+        "textOnPrimary": "#ffffff",
+        "textOnSecondary": "#ffffff",
+        "link": "#e61562",
+        "headerTopBg": "#e8065d",
+        "headerBottomBg": "#f1f1f1",
+        "footerSecondaryBg": "#343689",
+        "pageBg": "#e81064"
+      },
+      "alpha": {
+        "heroOverlay": {
+          "color": "#161466",
+          "opacity": 0.797
+        },
+        "glassSurface": {
+          "color": "#ffffff",
+          "opacity": 0.12
+        },
+        "glassBorder": {
+          "color": "#ffffff",
+          "opacity": 0.22
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "base": "Lato, sans-serif",
+        "heading": "Lato, sans-serif",
+        "accent": "Dancing Script, sans-serif"
+      },
+      "fontWeight": {
+        "regular": 400,
+        "bold": 700
+      },
+      "usage": {
+        "body": {
+          "fontFamilyToken": "base",
+          "fontWeightToken": "regular",
+          "colorToken": "neutral.text"
+        },
+        "nav": {
+          "fontFamilyToken": "base",
+          "fontWeightToken": "bold"
+        },
+        "heading": {
+          "fontFamilyToken": "heading",
+          "fontWeightToken": "bold",
+          "colorToken": "neutral.text"
+        },
+        "accent": {
+          "fontFamilyToken": "accent",
+          "fontWeightToken": "regular"
+        }
+      }
+    },
+    "spacingPx": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "2xl": 32,
+      "3xl": 48,
+      "section": 60
+    },
+    "radiusPx": {
+      "sm": 6,
+      "md": 10,
+      "lg": 14,
+      "pill": 9999,
+      "circle": 9999
+    },
+    "shadow": {
+      "dropdown": "0 10px 24px rgba(0,0,0,0.12)",
+      "card": "0 8px 18px rgba(0,0,0,0.10)"
+    },
+    "breakpointsPx": {
+      "mobileMax": 549,
+      "sm": 550,
+      "md": 850,
+      "lg": 1024,
+      "xl": 1280
+    },
+    "sizesPx": {
+      "header": {
+        "topBarMinHeight": 30,
+        "mainHeight": 95,
+        "mainHeightSticky": 70,
+        "bottomMinHeight": 55
+      },
+      "shapeDivider": {
+        "height": 150
+      }
+    },
+    "zIndex": {
+      "stickyHeader": 100,
+      "overlay": 200,
+      "backToTop": 300
+    },
+    "effects": {
+      "blurPx": {
+        "glass": 14
+      }
+    },
+    "motion": {
+      "durationMs": {
+        "fast": 150,
+        "normal": 250,
+        "slow": 400
+      },
+      "delayMs": {
+        "none": 0,
+        "sm": 75,
+        "md": 120
+      },
+      "staggerMs": {
+        "sm": 60,
+        "md": 90
+      },
+      "distancePx": {
+        "revealY": 12
+      },
+      "scale": {
+        "hover": 1.02,
+        "press": 0.98
+      },
+      "easing": {
+        "standard": "cubic-bezier(0.2, 0, 0, 1)"
+      }
+    }
+  },
+  "components": {
+    "header": {
+      "topBar": {
+        "backgroundToken": "color.semantic.headerTopBg",
+        "textOnBackgroundToken": "color.semantic.textOnPrimary",
+        "minHeightPxToken": "sizesPx.header.topBarMinHeight",
+        "content": [
+          "language switcher (EN/ID/SU)",
+          "quick links (dropdown)",
+          "social icons / external links"
+        ]
+      },
+      "main": {
+        "heightPxToken": "sizesPx.header.mainHeight",
+        "heightPxStickyToken": "sizesPx.header.mainHeightSticky",
+        "logo": {
+          "maxHeightPx": 95,
+          "maxHeightPxSticky": 70,
+          "widthPx": 208
+        }
+      },
+      "bottom": {
+        "backgroundToken": "color.semantic.headerBottomBg",
+        "minHeightPxToken": "sizesPx.header.bottomMinHeight"
+      }
+    },
+    "section": {
+      "default": {
+        "paddingTopPxToken": "spacingPx.section",
+        "paddingBottomPxToken": "spacingPx.section",
+        "backgroundToken": "color.semantic.surface"
+      },
+      "heroOverlay": {
+        "overlayToken": "color.alpha.heroOverlay"
+      }
+    },
+    "sectionTitle": {
+      "style": "bold-center",
+      "titleCase": "uppercase",
+      "leadingIcon": "icon-menu",
+      "example": "LINK TERKAIT"
+    },
+    "card": {
+      "surfaceToken": "color.semantic.surface",
+      "borderToken": "color.neutral.border",
+      "shadowToken": "shadow.card",
+      "radiusPxToken": "radiusPx.md"
+    },
+    "glass": {
+      "surfaceToken": "color.alpha.glassSurface",
+      "borderToken": "color.alpha.glassBorder",
+      "blurPxToken": "effects.blurPx.glass",
+      "radiusPxToken": "radiusPx.lg",
+      "shadowToken": "shadow.card",
+      "notes": [
+        "Glass dipakai untuk elemen modern di atas background gambar/gradient.",
+        "Tetap prioritaskan keterbacaan teks (kontras) di mobile."
+      ]
+    },
+    "button": {
+      "variants": {
+        "primary": {
+          "backgroundToken": "color.brand.primary",
+          "textToken": "color.semantic.textOnPrimary",
+          "radiusPxToken": "radiusPx.pill"
+        },
+        "outline": {
+          "borderToken": "color.brand.primary",
+          "textToken": "color.brand.primary",
+          "radiusPxToken": "radiusPx.pill"
+        },
+        "circleIcon": {
+          "radiusPxToken": "radiusPx.circle"
+        }
+      }
+    },
+    "linkTerkait": {
+      "layout": {
+        "columns": {
+          "mobile": 1,
+          "desktop": 4
+        },
+        "alignment": "center",
+        "logoMaxWidthPercent": 70
+      },
+      "interaction": {
+        "hover": "subtle (no heavy animation)",
+        "clickTarget": "logo image"
+      }
+    },
+    "footer": {
+      "footer1": {
+        "backgroundToken": "color.semantic.surface"
+      },
+      "footer2": {
+        "backgroundToken": "color.semantic.footerSecondaryBg",
+        "backgroundImage": "wp-content/uploads/2023/05/backsman.png",
+        "textOnBackgroundToken": "color.semantic.textOnSecondary"
+      },
+      "absoluteFooter": {
+        "backgroundToken": "color.semantic.pageBg",
+        "textOnBackgroundToken": "color.semantic.textOnPrimary",
+        "contains": [
+          "footer-nav links (uppercase)",
+          "copyright line"
+        ]
+      }
+    },
+    "backToTop": {
+      "position": "fixed",
+      "shape": "circle",
+      "variant": "outline",
+      "zIndexToken": "zIndex.backToTop"
+    },
+    "slider": {
+      "type": "carousel",
+      "mobileFirst": true,
+      "behavior": {
+        "drag": true,
+        "snap": true,
+        "loop": false,
+        "autoplay": false
+      },
+      "accessibility": {
+        "keyboard": true,
+        "ariaLabelsRequired": true
+      },
+      "controls": {
+        "dots": true,
+        "arrows": true
+      },
+      "layout": {
+        "slideGapPxToken": "spacingPx.md",
+        "peekNextSlideOnMobile": true
+      }
+    },
+    "animation": {
+      "principles": [
+        "Micro-interactions lebih penting daripada animasi besar.",
+        "Mobile-first: animasi harus ringan dan tidak mengganggu scroll.",
+        "Aksesibilitas: hormati prefers-reduced-motion."
+      ],
+      "patterns": {
+        "hoverLift": {
+          "durationMsToken": "motion.durationMs.fast",
+          "easingToken": "motion.easing.standard",
+          "scaleToken": "motion.scale.hover"
+        },
+        "press": {
+          "durationMsToken": "motion.durationMs.fast",
+          "scaleToken": "motion.scale.press"
+        },
+        "revealOnScroll": {
+          "durationMsToken": "motion.durationMs.normal",
+          "easingToken": "motion.easing.standard",
+          "distancePxToken": "motion.distancePx.revealY",
+          "staggerMsToken": "motion.staggerMs.sm"
+        }
+      }
+    }
+  },
+  "rules": {
+    "do": [
+      "Gunakan token semantic untuk styling (mis. headerTopBg, footerSecondaryBg) agar mudah diganti jika brand berubah.",
+      "Pertahankan kontras teks: textOnPrimary untuk background primary, textPrimary untuk surface putih.",
+      "Gunakan padding section 60px sebagai baseline untuk landing/beranda.",
+      "Prioritaskan mobile-first: desain default untuk layar kecil, baru tambah variasi di breakpoint lebih besar.",
+      "Utamakan target sentuh: elemen interaktif di mobile harus nyaman disentuh (hindari link/tombol terlalu rapat).",
+      "Gunakan animasi untuk membantu pemahaman (feedback klik/hover, reveal konten), bukan sekadar dekorasi.",
+      "Wajib dukung prefers-reduced-motion (animasi diperkecil/di-nonaktifkan bila user meminta)."
+    ],
+    "dont": [
+      "Jangan menyalin elemen/link tersembunyi dari snapshot referensi (spam/SEO hack).",
+      "Jangan hardcode warna di komponen; selalu refer ke tokens.*.color.",
+      "Jangan membuat varian warna baru tanpa update design_system.json.",
+      "Jangan desain desktop-first lalu dipaksa mengecil; itu biasanya bikin pengalaman mobile buruk."
+    ]
+  }
+}

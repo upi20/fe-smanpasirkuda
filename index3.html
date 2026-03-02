@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html class="light" lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>SMAN 1 Pasirkuda - Membangun Karakter, Mengukir Prestasi</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Material+Icons&amp;display=swap"
+    rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1E40AF", // Navy Blue
+            accent: "#E11D48",  // Rose/Red
+            "background-light": "#F8FAFC",
+            "background-dark": "#0F172A",
+          },
+          fontFamily: {
+            display: ["Plus Jakarta Sans", "sans-serif"],
+            sans: ["Plus Jakarta Sans", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.75rem",
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    .pattern-bg {
+      background-color: #1e40af;
+      background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDaXky0nMUX7yIUcISd5FptPFVhIzp5GORJRUGY5h_yDm_yfGIumNpaeoOf7IPeYHH6lZ3o0tWAIISuBkh3zgHvWWtNKa5TsYzymf0L60YXBqmGukTRqQ2pMshuP-dEciwCzMto_Yc-OWIcflDHfZ42r_Kv-D5Ek141_DimjtaTBl9b1sfawffsL5LXfVc6_R89oOabi2cPF6RyXuvu8mYy7AvbCbBG3bjqWJtfIstTr8fopxFI0nu6Mtl6CzaPSosPZbexR0KM4Go)
+    }
+
+    .hero-gradient {
+      background: linear-gradient(rgba(30, 64, 175, 0.85), rgba(30, 64, 175, 0.95)), url(https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80);
+      background-size: cover;
+      background-position: center
+    }
+
+    .card-shimmer {
+      position: relative;
+      overflow: hidden
+    }
+
+    .card-shimmer::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -150%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transform: skewx(-25deg);
+      transition: 0.75s
+    }
+
+    .card-shimmer:hover::after {
+      left: 150%
+    }
+  </style>
+</head>
+
+<body
+  class="font-sans antialiased text-slate-900 bg-background-light dark:bg-background-dark dark:text-slate-100 transition-colors duration-300">
+  <div class="bg-primary text-white py-2 px-4 md:px-12 flex justify-between items-center text-sm">
+    <div class="flex items-center space-x-4">
+      <span class="flex items-center"><i class="material-icons text-base mr-1">call</i> (0263) 123456</span>
+      <span class="hidden md:flex items-center"><i class="material-icons text-base mr-1">email</i>
+        info@sman1pasirkuda.sch.id</span>
+    </div>
+    <div class="flex items-center space-x-3">
+      <a class="hover:opacity-80" href="#"><i class="material-icons text-base">facebook</i></a>
+      <a class="hover:opacity-80" href="#"><i class="material-icons text-base">camera_alt</i></a>
+      <a class="hover:opacity-80" href="#"><i class="material-icons text-base">youtube_searched_for</i></a>
+      <button class="p-1 rounded-full hover:bg-white/10" onclick="document.documentElement.classList.toggle('dark')">
+        <i class="material-icons text-base">dark_mode</i>
+      </button>
+    </div>
+  </div>
+  <nav
+    class="sticky top-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+    <div class="container mx-auto px-4 md:px-12 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <div class="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg">
+          <i class="material-icons text-3xl">school</i>
+        </div>
+        <div>
+          <h1 class="font-bold text-xl leading-tight text-primary dark:text-blue-400">SMAN 1 PASIRKUDA</h1>
+          <p class="text-[10px] tracking-[0.2em] font-bold text-slate-500 uppercase">Building Excellence</p>
+        </div>
+      </div>
+      <ul class="hidden lg:flex space-x-8 font-semibold text-slate-600 dark:text-slate-300">
+        <li><a class="hover:text-primary transition-colors" href="#">BERANDA</a></li>
+        <li class="group relative">
+          <a class="flex items-center hover:text-primary transition-colors" href="#">PROFIL <i
+              class="material-icons text-sm ml-1">expand_more</i></a>
+        </li>
+        <li class="group relative">
+          <a class="flex items-center hover:text-primary transition-colors" href="#">AKADEMIK <i
+              class="material-icons text-sm ml-1">expand_more</i></a>
+        </li>
+        <li><a class="hover:text-primary transition-colors" href="#">KESISWAAN</a></li>
+        <li><a class="hover:text-primary transition-colors" href="#">PPDB 2025</a></li>
+      </ul>
+      <div class="flex items-center space-x-4">
+        <button class="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors">
+          <i class="material-icons">search</i>
+        </button>
+        <button
+          class="bg-primary hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-bold text-sm shadow-lg shadow-blue-500/30 transition-all">
+          LOGIN SISWA
+        </button>
+      </div>
+    </div>
+  </nav>
+  <header class="hero-gradient relative overflow-hidden min-h-[70vh] flex items-center">
+    <div class="container mx-auto px-4 md:px-12 relative z-10 grid md:grid-cols-2 gap-12 items-center">
+      <div class="text-white space-y-6">
+        <div class="inline-block px-4 py-1.5 bg-accent/20 border border-accent/30 rounded-full backdrop-blur-sm">
+          <span class="text-accent font-bold text-xs tracking-wider uppercase">Penerimaan Siswa Baru 2025</span>
+        </div>
+        <h2 class="text-5xl md:text-7xl font-extrabold leading-[1.1]">
+          Membangun <span class="text-blue-300 underline decoration-blue-500/50">Karakter</span>, Mengukir Prestasi.
+        </h2>
+        <p class="text-lg text-blue-50 text-balance leading-relaxed">
+          Wujudkan impian dan masa depan gemilang bersama SMAN 1 Pasirkuda. Sekolah dengan lingkungan belajar yang
+          inovatif, berintegritas, dan menyenangkan.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-4">
+          <button
+            class="bg-white text-primary px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-all flex items-center shadow-xl">
+            DAFTAR SEKARANG <i class="material-icons ml-2">arrow_forward</i>
+          </button>
+          <button
+            class="bg-primary/50 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-xl font-bold hover:bg-primary/70 transition-all">
+            LIHAT PROFIL SEKOLAH
+          </button>
+        </div>
+      </div>
+      <div class="hidden md:block relative">
+        <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-8 border-white/10">
+          <img alt="Students in Lab" class="w-full h-[500px] object-cover"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP-OH8UcNwhIWyBIUjSobvKTUDez2VTAC0yG49lAtLLhnlEb6TwAFdD6QGkFxyPpj6sdzqP64BUG0_9Pn_ArIPDUmxFMjlXwyZITCjm7DufjlkLEStNgY2TSQBbK3NqzTJgIj9-qHcrWSOVaRMpMR3Ytj7Y7lnWAS7hRcDm1__rkyYkLZ7agvTAvt0IvpORaD6OkJuWklwoLcUP46r8Pwg3AiQXoDoKx4bWsukHdH2ULIi5N4NtcRTf6jrbKOBznIsMu2-3fx5lhY" />
+        </div>
+        <div class="absolute -top-10 -right-10 w-40 h-40 bg-accent rounded-full blur-3xl opacity-50"></div>
+        <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-blue-400 rounded-full blur-3xl opacity-50"></div>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+      <svg class="relative block w-full h-12" data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 120"
+        xmlns="http://www.w3.org/2000/svg">
+        <path class="fill-background-light dark:fill-background-dark"
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.43,147.3,126,211.33,103.18c34-12.13,64.78-31.28,110.06-46.74Z">
+        </path>
+      </svg>
+    </div>
+  </header>
+  <section class="py-24 bg-background-light dark:bg-background-dark overflow-hidden">
+    <div class="container mx-auto px-4 md:px-12">
+      <div class="text-center mb-16 space-y-4">
+        <div class="flex items-center justify-center space-x-4 mb-2">
+          <div class="h-[2px] w-12 bg-slate-300 dark:bg-slate-700"></div>
+          <span class="text-primary font-bold tracking-widest uppercase text-sm">KEUNGGULAN KAMI</span>
+          <div class="h-[2px] w-12 bg-slate-300 dark:bg-slate-700"></div>
+        </div>
+        <h3 class="text-4xl font-extrabold dark:text-white">SMANSA SEBAGAI...</h3>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          class="bg-blue-600 rounded-3xl p-8 text-white space-y-6 transform hover:-translate-y-2 transition-all duration-300 shadow-xl shadow-blue-500/20 card-shimmer group">
+          <div
+            class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+            <i class="material-icons text-3xl">verified_user</i>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-xl font-bold uppercase">Sekolah Integritas</h4>
+            <p class="text-xs font-medium opacity-80 uppercase tracking-tighter">Sejak November 2022</p>
+          </div>
+          <p class="text-sm leading-relaxed opacity-90">
+            Menjadi lembaga pendidikan yang mengedepankan nilai kejujuran dan etika moral dalam setiap proses
+            pembelajaran.
+          </p>
+        </div>
+        <div
+          class="bg-rose-500 rounded-3xl p-8 text-white space-y-6 transform hover:-translate-y-2 transition-all duration-300 shadow-xl shadow-rose-500/20 card-shimmer group">
+          <div
+            class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+            <i class="material-icons text-3xl">child_care</i>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-xl font-bold uppercase">Sekolah Ramah Anak</h4>
+            <p class="text-xs font-medium opacity-80 uppercase tracking-tighter">Sejak Mei 2023</p>
+          </div>
+          <p class="text-sm leading-relaxed opacity-90">
+            Lingkungan belajar yang aman, nyaman, dan mendukung penuh potensi setiap siswa tanpa diskriminasi.
+          </p>
+        </div>
+        <div
+          class="bg-amber-500 rounded-3xl p-8 text-white space-y-6 transform hover:-translate-y-2 transition-all duration-300 shadow-xl shadow-amber-500/20 card-shimmer group">
+          <div
+            class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+            <i class="material-icons text-3xl">devices</i>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-xl font-bold uppercase">Berbasis Digital</h4>
+            <p class="text-xs font-medium opacity-80 uppercase tracking-tighter">Sejak Januari 2024</p>
+          </div>
+          <p class="text-sm leading-relaxed opacity-90">
+            Integrasi teknologi terkini dalam kurikulum merdeka untuk mempersiapkan siswa menghadapi era industri 4.0.
+          </p>
+        </div>
+        <div
+          class="bg-emerald-600 rounded-3xl p-8 text-white space-y-6 transform hover:-translate-y-2 transition-all duration-300 shadow-xl shadow-emerald-500/20 card-shimmer group">
+          <div
+            class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+            <i class="material-icons text-3xl">bolt</i>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-xl font-bold uppercase">Sekolah Penggerak</h4>
+            <p class="text-xs font-medium opacity-80 uppercase tracking-tighter">Angkatan III</p>
+          </div>
+          <p class="text-sm leading-relaxed opacity-90">
+            Sebagai pelopor transformasi pendidikan yang fokus pada pengembangan hasil belajar siswa secara holistik.
+          </p>
+        </div>
+      </div>
+      <div class="mt-12 text-center">
+        <button
+          class="border-2 border-slate-200 dark:border-slate-800 px-8 py-3 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all inline-flex items-center text-slate-600 dark:text-slate-400">
+          SELENGKAPNYA <i class="material-icons ml-2">arrow_forward</i>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="py-24 bg-white dark:bg-slate-900">
+    <div class="container mx-auto px-4 md:px-12">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div class="space-y-4">
+          <div class="flex items-center space-x-4 mb-2">
+            <div class="h-[2px] w-12 bg-primary"></div>
+            <span class="text-primary font-bold tracking-widest uppercase text-sm">UPDATE TERBARU</span>
+          </div>
+          <h3 class="text-4xl font-extrabold dark:text-white">Warta Sekolah</h3>
+        </div>
+        <button
+          class="bg-primary/10 text-primary px-6 py-3 rounded-xl font-bold hover:bg-primary/20 transition-all flex items-center">
+          LIHAT SEMUA BERITA <i class="material-icons ml-2">grid_view</i>
+        </button>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <article
+          class="group bg-slate-50 dark:bg-slate-800/50 rounded-[2rem] overflow-hidden border border-slate-100 dark:border-slate-800 transition-all hover:shadow-2xl hover:shadow-primary/10">
+          <div class="relative h-64 overflow-hidden">
+            <img alt="News Image"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvuCchxkuG_AS_9Hq3t6T5FTy8gZFBoQyXLiUlS8b3W9Ny1IRCEneXEERWZ9lyP6lKlTCEh_4CqL-Oww2EPrK2jnTqyff5PA_Kz13ip1G2pu2PD33rToX7Ks3FvTfAodASDglDCoi94tGEQXgHLNbtpj3G1IV8gESsQYtxaQWKsb7ojQg1dpHArizrhgq7zNq6E1gshACoK8i33PbvsyuU_Jgg20truCltI_xi9Vl3n6ZbmQcAbL-R4kwb-dmfUjycF90CpX7s5OQ" />
+            <div class="absolute top-4 left-4 bg-white dark:bg-slate-900 rounded-2xl p-3 text-center shadow-lg">
+              <span class="block text-xl font-black text-primary leading-none">20</span>
+              <span class="text-[10px] font-bold text-slate-500 uppercase tracking-tighter">MAR 2024</span>
+            </div>
+            <div
+              class="absolute bottom-4 right-4 px-4 py-1.5 bg-accent text-white text-[10px] font-bold rounded-full uppercase tracking-widest">
+              Prestasi</div>
+          </div>
+          <div class="p-8 space-y-4">
+            <h4 class="text-xl font-bold group-hover:text-primary transition-colors leading-tight">
+              SMAN 1 Pasirkuda Raih Peringkat 1 Nasional Olimpiade Sains
+            </h4>
+            <p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-3">
+              Prestasi membanggakan kembali diraih oleh putra-putri terbaik SMANSA dalam ajang OSN tingkat Nasional yang
+              diselenggarakan di Jakarta...
+            </p>
+            <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+              BACA SELENGKAPNYA <i
+                class="material-icons ml-1 text-sm transition-transform group-hover/link:translate-x-1">trending_flat</i>
+            </a>
+          </div>
+        </article>
+        <article
+          class="group bg-slate-50 dark:bg-slate-800/50 rounded-[2rem] overflow-hidden border border-slate-100 dark:border-slate-800 transition-all hover:shadow-2xl hover:shadow-primary/10">
+          <div class="relative h-64 overflow-hidden">
+            <img alt="News Image"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUWal3QI2ZdaP0w9ecxgAv84hWL1-Oh3d02lFX4_VG0nGw3uZWE9payDJJ79fPjigyymSKz-4gkMXCAcKwbwTFk1p6PROWY-sPA1yANBJio7nHjd8rUlaz1FweLIKXA_lPFifXGuvZn5s-laIP-v-axb0ey-8kUe0tzgnL-rdl81mT2Yl0dJpJuNS-68-qZ82HZYh_zlT6CGY8NHgaFuR2LA9Het8JOlK2absIqJ9sqNsS1pbU3onxR1zB0EjCUAvJL2sr1Gx1ID0" />
+            <div class="absolute top-4 left-4 bg-white dark:bg-slate-900 rounded-2xl p-3 text-center shadow-lg">
+              <span class="block text-xl font-black text-primary leading-none">15</span>
+              <span class="text-[10px] font-bold text-slate-500 uppercase tracking-tighter">MAR 2024</span>
+            </div>
+            <div
+              class="absolute bottom-4 right-4 px-4 py-1.5 bg-blue-500 text-white text-[10px] font-bold rounded-full uppercase tracking-widest">
+              Kegiatan</div>
+          </div>
+          <div class="p-8 space-y-4">
+            <h4 class="text-xl font-bold group-hover:text-primary transition-colors leading-tight">
+              Kunjungan Edukasi ke Observatorium Bosscha Lembang
+            </h4>
+            <p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-3">
+              Siswa kelas XI peminatan MIPA melakukan studi lapangan mendalam untuk mempelajari astronomi secara
+              langsung bersama para ahli...
+            </p>
+            <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+              BACA SELENGKAPNYA <i
+                class="material-icons ml-1 text-sm transition-transform group-hover/link:translate-x-1">trending_flat</i>
+            </a>
+          </div>
+        </article>
+        <article
+          class="group bg-slate-50 dark:bg-slate-800/50 rounded-[2rem] overflow-hidden border border-slate-100 dark:border-slate-800 transition-all hover:shadow-2xl hover:shadow-primary/10">
+          <div class="relative h-64 overflow-hidden">
+            <img alt="News Image"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWXot7jFLMai2t7X19U_-ZPwnhKrFY_o_4Q0owUSA6y0vItOqGdfoBQeEfxhO7q9UJtjelhADvzGz0Erg5vrvuYUAH9DOHLwb8nE9bVn2JYxoay9Puon59rPyHbj_vjrl1gM4EzRvb5vADvCBSCdEFB0UFE72JAz6EQgKT6-h7JCTVsXI-VYKnTWbt4y1hsxhPA_vUUZCSE-fZ0k05MxSb80lyuzZ7z3lZ0OX1CyqrqRurHLLIl4TNmTg-XCfv8JTqOpI1Cxnui8Q" />
+            <div class="absolute top-4 left-4 bg-white dark:bg-slate-900 rounded-2xl p-3 text-center shadow-lg">
+              <span class="block text-xl font-black text-primary leading-none">10</span>
+              <span class="text-[10px] font-bold text-slate-500 uppercase tracking-tighter">MAR 2024</span>
+            </div>
+            <div
+              class="absolute bottom-4 right-4 px-4 py-1.5 bg-emerald-500 text-white text-[10px] font-bold rounded-full uppercase tracking-widest">
+              Pengumuman</div>
+          </div>
+          <div class="p-8 space-y-4">
+            <h4 class="text-xl font-bold group-hover:text-primary transition-colors leading-tight">
+              Penerimaan Mahasiswa Baru Melalui Jalur SNBP 2025
+            </h4>
+            <p class="text-slate-500 dark:text-slate-400 text-sm line-clamp-3">
+              Selamat bagi para siswa yang telah dinyatakan lolos administrasi untuk pengajuan jalur SNBP tahun ajaran
+              2025/2026 mendatang...
+            </p>
+            <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+              BACA SELENGKAPNYA <i
+                class="material-icons ml-1 text-sm transition-transform group-hover/link:translate-x-1">trending_flat</i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="py-20 pattern-bg text-white relative overflow-hidden">
+    <div class="container mx-auto px-4 md:px-12 relative z-10">
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-4 flex justify-center">
+          <div class="relative group">
+            <div class="absolute inset-0 bg-white/20 blur-3xl group-hover:scale-110 transition-transform"></div>
+            <img alt="Principal"
+              class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-8 border-white/20 relative z-10"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCps0SeJgc4mK5J-gFVDXD7JY7v57cERGxAu6IFqY-hKzTZ3MdMLCK2il8jC6zaXizMVvvryiLAf7BqqjC4VGyIAnNeyvgFZwEw2vQuFMUDRChfAL6d8xZSyqfp_tb2fUCuKZxeBtMmEilde660BhG7zhJDQvhDfiKBauwRqTsAY64zqLTtJ2wkscfqabsDwLfQNh7bg3MMELs8uKnQonVNaDFflAmExGJtTP6jdgz2MA3lCOagaE1ym1MIA580D92aaSqfIzgqL2Y" />
+            <div
+              class="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white text-primary px-8 py-2 rounded-full font-bold shadow-xl whitespace-nowrap z-20">
+              Dr. Siti Rahmawati, M.Pd.
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-5 space-y-6 text-center md:text-left">
+          <h3 class="text-3xl font-extrabold uppercase">Sambutan Kepala Sekolah</h3>
+          <p class="text-lg text-blue-100 leading-relaxed italic">
+            "Pendidikan bukan sekadar mengisi wadah yang kosong, melainkan menyalakan api semangat dalam diri setiap
+            siswa untuk terus bertumbuh dan memberi manfaat bagi sesama."
+          </p>
+          <div class="flex items-center justify-center md:justify-start space-x-6">
+            <div class="text-center">
+              <p class="text-3xl font-black">2.4k+</p>
+              <p class="text-[10px] font-bold uppercase tracking-widest opacity-70">Alumni</p>
+            </div>
+            <div class="w-[1px] h-10 bg-white/20"></div>
+            <div class="text-center">
+              <p class="text-3xl font-black">120+</p>
+              <p class="text-[10px] font-bold uppercase tracking-widest opacity-70">Prestasi</p>
+            </div>
+            <div class="w-[1px] h-10 bg-white/20"></div>
+            <div class="text-center">
+              <p class="text-3xl font-black">45+</p>
+              <p class="text-[10px] font-bold uppercase tracking-widest opacity-70">Pengajar</p>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-3 flex justify-center md:justify-end">
+          <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 text-center space-y-4">
+            <img alt="Mascot" class="w-32 h-32 mx-auto drop-shadow-2xl animate-bounce duration-[3000ms]"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKPDL_ylZkuy1-O7xsEC5N8DRCcnVEHLOQYFEuG8tyZShtpdYfTvVkFHi6zVYh2fASUVVEuuIWxuEjydr9ZQnfrf8913xIso3Yxv1I_mewz4JIGrWUjSfRag_6Bt0CAKLRsYtbNcIBcKzmYIpPy80TwuN_-MKElgYgBmvygG6wqHvuLisdRv3wpdW6-W-_rmsLv2YJ1HlhUP__mEMZBOJgkAJyLZked80ylQbZ6IPlntWawuUw2rDqjRR2YAZVsDv6hu-WVLFugsQ" />
+            <div>
+              <h4 class="font-black text-2xl">SI AMBIS</h4>
+              <p class="text-xs font-bold text-blue-200 tracking-widest uppercase">Mascot Kebanggaan</p>
+            </div>
+            <p class="text-xs opacity-80 leading-relaxed">Melambangkan keberanian, ketangkasan, dan semangat pantang
+              menyerah.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute top-10 right-10 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-20 -left-20 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl"></div>
+  </section>
+  <footer class="bg-slate-900 text-slate-300 pt-20 pb-10">
+    <div class="container mx-auto px-4 md:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div class="space-y-6">
+          <div class="flex items-center space-x-3 text-white">
+            <div class="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/20">
+              <i class="material-icons text-3xl">school</i>
+            </div>
+            <h1 class="font-bold text-xl leading-tight">SMAN 1 PASIRKUDA</h1>
+          </div>
+          <p class="text-sm leading-relaxed text-slate-400">
+            Sekolah Menengah Atas Negeri 1 Pasirkuda merupakan institusi pendidikan terkemuka yang berkomitmen
+            menghasilkan lulusan berkualitas dunia.
+          </p>
+          <div class="flex space-x-4">
+            <a class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors"
+              href="#">
+              <i class="material-icons text-sm">facebook</i>
+            </a>
+            <a class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors"
+              href="#">
+              <i class="material-icons text-sm">camera_alt</i>
+            </a>
+            <a class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors"
+              href="#">
+              <i class="material-icons text-sm">alternate_email</i>
+            </a>
+          </div>
+        </div>
+        <div class="space-y-6">
+          <h4 class="text-white font-bold text-lg uppercase tracking-wider">Tautan Cepat</h4>
+          <ul class="space-y-3 text-sm">
+            <li><a class="hover:text-primary transition-colors" href="#">Profil Sekolah</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Fasilitas</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Ekstrakurikuler</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Informasi Kelulusan</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">E-Learning</a></li>
+          </ul>
+        </div>
+        <div class="space-y-6">
+          <h4 class="text-white font-bold text-lg uppercase tracking-wider">Akademik</h4>
+          <ul class="space-y-3 text-sm">
+            <li><a class="hover:text-primary transition-colors" href="#">Kurikulum Merdeka</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Kalender Pendidikan</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Penerimaan Siswa Baru</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Portal Orang Tua</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Beasiswa Siswa</a></li>
+          </ul>
+        </div>
+        <div class="space-y-6">
+          <h4 class="text-white font-bold text-lg uppercase tracking-wider">Kontak Kami</h4>
+          <div class="space-y-4 text-sm text-slate-400">
+            <div class="flex items-start space-x-3">
+              <i class="material-icons text-primary mt-0.5">place</i>
+              <p>Jl. Raya Pasirkuda No. 123, Cianjur, Jawa Barat 43267</p>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="material-icons text-primary">phone</i>
+              <p>(0263) 123456</p>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="material-icons text-primary">mail</i>
+              <p>info@sman1pasirkuda.sch.id</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-slate-500 uppercase tracking-[0.2em]">
+        <p>© 2024 SMAN 1 Pasirkuda. All Rights Reserved.</p>
+        <p>Designed with <i class="material-icons text-[10px] text-accent align-middle">favorite</i> for Education</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

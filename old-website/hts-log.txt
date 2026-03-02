@@ -1,0 +1,26 @@
+HTTrack3.49-2 launched on Mon, 02 Mar 2026 22:41:22 at https://smansatupasirkuda.sch.id/
+(httrack https://smansatupasirkuda.sch.id/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:44:15	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/fonts/icomoon/icomoon.eot?6iuir (from https://smansatupasirkuda.sch.id/themes/template2/css/icomoon.css)
+22:44:15	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/fonts/icomoon/icomoon.ttf?6iuir (from https://smansatupasirkuda.sch.id/themes/template2/css/icomoon.css)
+22:44:15	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/fonts/icomoon/icomoon.woff?6iuir (from https://smansatupasirkuda.sch.id/themes/template2/css/icomoon.css)
+22:44:15	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/fonts/icomoon/icomoon.svg?6iuir (from https://smansatupasirkuda.sch.id/themes/template2/css/icomoon.css)
+22:44:15	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/css/owl.video.play.png (from https://smansatupasirkuda.sch.id/themes/template2/css/owl.carousel.min.css)
+22:44:15	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/images/background8.jpg (from https://smansatupasirkuda.sch.id/themes/template2/css/style.css)
+22:44:15	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/images/icons/ico_time.png (from https://smansatupasirkuda.sch.id/themes/template2/css/style.css)
+22:44:15	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/css/ajax-loader.gif (from https://smansatupasirkuda.sch.id/themes/template2/css/slick-theme.css)
+22:44:40	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/images/icons/loading2.png' (from https://smansatupasirkuda.sch.id/video)
+22:44:40	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/Edg/ (from https://smansatupasirkuda.sch.id/tentang-sekolah)
+22:44:40	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/+/ (from https://smansatupasirkuda.sch.id/tentang-sekolah)
+22:44:40	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/a,window.document.baseURI (from https://smansatupasirkuda.sch.id/tentang-sekolah)
+22:44:40	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/f (from https://smansatupasirkuda.sch.id/tentang-sekolah)
+22:44:40	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/css.js (from https://smansatupasirkuda.sch.id/tentang-sekolah)
+22:44:49	Error: 	"Not Found" (404) at link https://smansatupasirkuda.sch.id/themes/template2/images/icons/loading3.png style= (from https://smansatupasirkuda.sch.id/agenda/judul-agenda-4-988)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 29 seconds : 188 links scanned, 172 files written (11239887 bytes overall) [3729242 bytes received at 17843 bytes/sec], 9359816 bytes transferred using HTTP compression in 153 files, ratio 15%
+(15 errors, 0 warnings, 0 messages)

@@ -1,0 +1,16 @@
+HTTrack3.49-2 launched on Mon, 02 Mar 2026 22:40:46 at https://smansatupasirkuda.sch.id/ old-website
+(httrack https://smansatupasirkuda.sch.id/ old-website )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:41:00	Error: 	Exit requested by shell or user
+22:41:01	Warning: 	File not added due to mirror cancel: old-website/robots.txt
+22:41:01	Warning: 	Retry after error -5 (Unable to get server's address: nodename nor servname provided, or not known) at link old-website/ (from primary/primary)
+22:41:01	Warning: 	File not added due to mirror cancel: old-website/
+22:41:01	Error: 	"mirror stopped by user" (-1) at link old-website/ (from primary/primary)
+
+HTTrack Website Copier/3.49-2 mirror complete in 15 seconds : 18 links scanned, 14 files written (522461 bytes overall) [104085 bytes received at 6939 bytes/sec], 522505 bytes transferred using HTTP compression in 15 files, ratio 17%
+(2 errors, 3 warnings, 0 messages)
