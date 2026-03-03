@@ -11,7 +11,7 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
-const waNumber = '6285795106118'
+const waNumber = '6285314245436'
 const waLink = `https://wa.me/${waNumber}?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20SMAN%201%20Pasirkuda`
 
 onMounted(() => window.addEventListener('scroll', onScroll, { passive: true }))

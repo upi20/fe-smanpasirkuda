@@ -48,8 +48,8 @@ const navItems: NavItem[] = [
 ]
 
 const contactInfo = [
-  { icon: 'mail', text: 'info@smansatupasirkuda.sch.id' },
-  { icon: 'phone', text: '085795106118' },
+  { icon: 'mail', text: 'info@smanegeri1pasirkuda.sch.id' },
+  { icon: 'phone', text: '085314245436' },
 ]
 </script>
 
