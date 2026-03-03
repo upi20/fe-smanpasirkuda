@@ -29,7 +29,7 @@ const stats: Stat[] = [
 </script>
 
 <template>
-  <section class="py-16 sm:py-20 lg:py-24">
+  <section class="bg-surface-alt py-16 sm:py-20 lg:py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <!-- Header -->
       <div v-reveal.fade="{ delay: 0 }" class="mx-auto mb-12 max-w-3xl text-center lg:mb-16">

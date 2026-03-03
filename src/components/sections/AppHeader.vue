@@ -80,7 +80,7 @@ const contactInfo = [
     <div class="mx-auto flex h-full max-w-7xl items-center justify-between px-4">
       <RouterLink to="/" class="flex shrink-0 items-center gap-3" aria-label="Beranda SMAN 1 Pasirkuda">
         <img :src="logoUrl" alt="Logo SMAN 1 Pasirkuda" class="h-10 w-10 object-contain lg:h-12 lg:w-12" width="48" height="48" />
-        <div class="hidden sm:block">
+        <div>
           <span class="text-brand-primary text-lg font-bold leading-tight lg:text-xl">SMAN 1 Pasirkuda</span>
           <p class="text-[10px] font-bold uppercase tracking-[0.15em] text-text-primary/50">Kab. Cianjur</p>
         </div>
